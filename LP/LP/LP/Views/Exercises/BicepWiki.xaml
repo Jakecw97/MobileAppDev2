@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="DimGray"
+             Title="How To: Bicep Curl"
+             x:Class="LP.Views.Exercises.BicepWiki">
+    <ContentPage.Content>
+        <ScrollView x:Name="MainScroll" >
+            <StackLayout>
+            <Label Text="Stand upright with a dumbell in each hand. Keep your elbows at your side and lift the weight up towards your shoulder while exhaling, turn your hands so that your palms face upward as you lift. At the top inhale and slowly reverse the motion, resisting the weight and not letting it fall. Repeat for required repititions."/>
+            <Label Text="1" HorizontalTextAlignment="Center"/>
+            <Image Source="bicep1.jpg"/>
+            <Label Text="2" HorizontalTextAlignment="Center"/>
+            <Image Source="bicep2.jpg"/>
+             </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

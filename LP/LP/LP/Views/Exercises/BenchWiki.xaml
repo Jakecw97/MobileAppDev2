@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="DimGray"
+             Title="How To: Bench Press"
+             x:Class="LP.Views.Exercises.BenchWiki">
+    <ContentPage.Content>
+        <ScrollView x:Name="MainScroll" >
+            <StackLayout>
+                <Label Text="Lay flat on a bench, keep your shoulder blades tucked back and grip the bar slightly wider than shoulder width. Grip the bar and straighten your arms, inhale and lower the weight, touch the bar to your chest for a second before explosively pushing the bar back up while exhaling. Repeat for required repetitions."
+                />
+                <Label Text="1" HorizontalTextAlignment="Center"/>
+                <Image Source="bp1.jpg"/>
+                <Label Text="2" HorizontalTextAlignment="Center"/>
+                <Image Source="bp2.jpg"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

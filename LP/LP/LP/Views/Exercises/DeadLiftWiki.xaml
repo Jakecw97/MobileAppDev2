@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="DimGray"
+             Title="How To: Deadlift"
+             x:Class="LP.Views.Exercises.DeadLiftWiki">
+    <ContentPage.Content>
+        <ScrollView x:Name="MainScroll" >
+            <StackLayout>
+                <Label Text="Approach bar so it is centered over your foot, bend at the hip and grasp the bar at shoulder width, keep your back straight, breath in and tighten your core. Keep your gaze forward and drive through your heels, keeping your back straight and chest up. Once the bar gets to knee height pull back and thrust forward with your hips. Exhale and inhale at the top before lowering the bar back down safely. Repeat for required repetitions."
+               />
+                <Label Text="1" HorizontalTextAlignment="Center"/>
+                <Image Source="dl1.jpg"/>
+                <Label Text="2" HorizontalTextAlignment="Center"/>
+                <Image Source="dl2.jpg"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

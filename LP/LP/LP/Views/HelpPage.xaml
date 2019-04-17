@@ -1,12 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LP.Views.HelpPage">
+             x:Class="LP.Views.HelpPage"
+             BackgroundColor="DimGray"
+             Title="Help">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <ScrollView x:Name="MainScroll" >
+            <StackLayout Padding="2">
+           
+                <Label Text="About:" TextColor="#ba5e5e"></Label>
+                <Label Text="This program is designed to be followed by beginners Three times a week for 8-12 weeks. Each of the 4 Compound exercises are to be performed with heavy weight for Five sets of Five repetitions each. The Bicep and Tricep isolation exercises are to be performed for Four sets of Ten repetitions using a moderate weight."></Label>
+                <Label Text="Exercise References" TextColor="#ba5e5e" HorizontalTextAlignment="Center"></Label>
+                <Button Text="Squat"  Clicked="Squat_Clicked"></Button>
+                <Button Text="Bench Press" Clicked="Bench_Clicked"></Button>
+                <Button Text="Overhead Press" Clicked="OverHead_Clicked"></Button>
+                <Button Text="Deadlift" Clicked="Deadlift_Clicked"></Button>
+                <Button Text="Bicep Curl" Clicked="Bicep_Clicked"></Button>
+                <Button Text="Tricep Pushdown" Clicked="Tricep_Clicked"></Button>
+          
+
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="DimGray"
+             Title="How To: Squat"
+             x:Class="LP.Views.Exercises.SquatWiki">
+    <ContentPage.Content>
+        <ScrollView x:Name="MainScroll" >
+            <StackLayout>
+                <Label Text="Set up a bar at shoulder height, step under the bar and rest it on your traps. Keep your chest and head up, adopt a slightly wider stance and point your toes at a Fourty-Five degree angle outward. Inhale, tighten your core and bend at the knees, until your depth goes below paralel, then push through the heels and raise the weight. Repeat for the required repetitions."
+               />
+                <Label Text="1" HorizontalTextAlignment="Center"/>
+                <Image Source="squat1.jpg"/>
+                <Label Text="2" HorizontalTextAlignment="Center"/>
+                <Image Source="squat2.jpg"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

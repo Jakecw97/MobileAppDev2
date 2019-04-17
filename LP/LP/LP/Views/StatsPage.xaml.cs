@@ -12,7 +12,7 @@ namespace LP.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class StatsPage : ContentPage
 	{
-        WorkoutsViewModel viewModel;
+    
         public StatsPage ()
 		{
 			InitializeComponent ();

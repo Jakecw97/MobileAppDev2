@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="DimGray"
+             Title="How To: Tricep Pushdown"
+             x:Class="LP.Views.Exercises.TricepWiki">
+    <ContentPage.Content>
+        <ScrollView x:Name="MainScroll" >
+            <StackLayout>
+                <Label Text="Attach either a rope or bar to a high pulley and grasp with an overhand grip. Standing upright, bring elbows to your side and lock them in place,exhale pushing the weight down with your arms hinging at the elbow. Hold and squeeze at the bottom for a moment before slowly letting the weight back up, inhale  and repeat for the required ammount of repetitions."
+            />
+                <Label Text="1" HorizontalTextAlignment="Center"/>
+                <Image Source="tricep1.jpg"/>
+                <Label Text="2" HorizontalTextAlignment="Center"/>
+                <Image Source="tricep2.jpg"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

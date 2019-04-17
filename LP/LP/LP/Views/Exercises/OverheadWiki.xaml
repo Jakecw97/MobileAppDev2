@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="DimGray"
+             Title="How To: Overhead Press"
+             x:Class="LP.Views.Exercises.OverheadWiki">
+    <ContentPage.Content>
+        <ScrollView x:Name="MainScroll" >
+            <StackLayout>
+                <Label Text="Set up a barbell at chest height. Step into it and grasp it slightly farther than shoulder width apart. Bend at the knees and lift the barbell onto your collar bones. Straighten legs, inhale and squeeze your abs then push the weight up overhead while exhaling, keep the bar path straight and bob your head out of the way as it passes. Keep your back straight and core tight as you reach the top, inhale at the top and slowly lower the bar back to your collarbone. Repeat for the required repetitions."/>
+                <Label Text="1" HorizontalTextAlignment="Center"/>
+                <Image Source="ohp1.jpg"/>
+                <Label Text="2" HorizontalTextAlignment="Center"/>
+                <Image Source="ohp2.jpg"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

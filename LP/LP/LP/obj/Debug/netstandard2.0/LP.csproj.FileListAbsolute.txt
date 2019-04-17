@@ -13,3 +13,9 @@ C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\bin\Debug\net
 C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\bin\Debug\netstandard2.0\LP.pdb
 C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\Views\StatsPage.xaml.g.cs
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\Views\Exercises\BenchWiki.xaml.g.cs
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\Views\Exercises\BicepWiki.xaml.g.cs
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\Views\Exercises\DeadLiftWiki.xaml.g.cs
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\Views\Exercises\SquatWiki.xaml.g.cs
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\Views\Exercises\TricepWiki.xaml.g.cs
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\Views\Exercises\OverheadWiki.xaml.g.cs
