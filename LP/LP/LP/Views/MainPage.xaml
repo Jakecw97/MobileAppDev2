@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:views="clr-namespace:LP.Views"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            x:Class="LP.Views.MainPage"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.BarItemColor="White"
+            android:TabbedPage.BarSelectedItemColor="#ba5e5e"
+            TabbedPage.BarBackgroundColor="#232323">
+    
+            
+    
+    <TabbedPage.Children>
+        <NavigationPage Title="Workout" Icon="dumb">
+            <x:Arguments>
+                <views:StatsPage />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Help" Icon="help">
+            <x:Arguments>
+                <views:HelpPage />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>

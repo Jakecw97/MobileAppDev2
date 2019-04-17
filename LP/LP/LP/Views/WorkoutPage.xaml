@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             x:Class="LP.Views.WorkoutPage"            
+             Title="Full Body Workout">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Clicked="Save_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="bg1.jpg" Aspect="AspectFill"></Image>
+            <Frame OutlineColor="Black"  BackgroundColor="#66232323" Margin="10,10,10,10">
+            
+            <ScrollView x:Name="MainScroll" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <StackLayout Spacing="5" Padding="5">
+                    <Label TextColor="#61a1c6" Text="Squat" FontSize="Medium"  />
+                    <Entry TextColor="White" Keyboard ="Numeric" Text="{Binding Workout.squat}" FontSize="Small" />
+                    <Label TextColor="#61a1c6" Text="Bench Press" FontSize="Medium" />
+                    <Entry TextColor="White" Keyboard ="Numeric" Text="{Binding Workout.bench}" FontSize="Small" />
+                    <Label TextColor="#61a1c6" Text="Deadlift" FontSize="Medium" />
+                    <Entry TextColor="White" Keyboard ="Numeric" Text="{Binding Workout.deadlift}" FontSize="Small" />
+                    <Label TextColor="#61a1c6" Text="Overhead Press" FontSize="Medium" />
+                    <Entry TextColor="White" Keyboard ="Numeric" Text="{Binding Workout.overHead}" FontSize="Small" />
+                    <Label TextColor="#61a1c6" Text="Bicep Curl" FontSize="Medium" />
+                    <Entry TextColor="White" Keyboard ="Numeric" Text="{Binding Workout.bicep}" FontSize="Small" />
+                    <Label TextColor="#61a1c6" Text="Tricep Pushdown" FontSize="Medium" />
+                    <Entry TextColor="White" Keyboard ="Numeric" Text="{Binding Workout.tricep}" FontSize="Small" />
+                </StackLayout>
+                
+            </ScrollView>
+        </Frame>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

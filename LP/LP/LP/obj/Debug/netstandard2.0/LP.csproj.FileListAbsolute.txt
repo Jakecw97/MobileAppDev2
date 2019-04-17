@@ -1,0 +1,15 @@
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\LP.csprojAssemblyReference.cache
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\Views\WorkoutPage.xaml.g.cs
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\LP.csproj.CoreCompileInputs.cache
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\LP.AssemblyInfoInputs.cache
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\LP.AssemblyInfo.cs
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\LP.dll
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\LP.pdb
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\Views\HelpPage.xaml.g.cs
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\bin\Debug\netstandard2.0\LP.deps.json
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\bin\Debug\netstandard2.0\LP.dll
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\bin\Debug\netstandard2.0\LP.pdb
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jakec\Documents\GitHub\DataRep2018\MobileAppDev2\LP\LP\LP\obj\Debug\netstandard2.0\Views\StatsPage.xaml.g.cs
