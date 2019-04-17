@@ -7,9 +7,9 @@ namespace LP.Services
     public interface Storage<T>
     {
         Task<bool> AddWorkoutAsync(T workout);
-        //Task<bool> UpdateItemAsync(T workout);
-        //Task<bool> DeleteItemAsync(string id);
-        Task<T> GetWorkoutAsync(string id);
+        Task<bool> UpdateWorkoutAsync(T workout);
+        Task<bool> DeleteWorkoutAsync(string day);
+        Task<T> GetWorkoutAsync(string day);
         Task<IEnumerable<T>> GetWorkoutAsync(bool forceRefresh = false);
     }
 }

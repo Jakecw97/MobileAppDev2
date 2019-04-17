@@ -4,8 +4,34 @@
              x:Class="LP.Views.StatsPage"
              Title="Workouts Stats">
     <ContentPage.Content>
-        <StackLayout>
-      
+        <StackLayout BackgroundColor="DimGray">
+            <ListView x:Name="ItemsListView" 
+                ItemsSource="{Binding Workouts}"
+                VerticalOptions="FillAndExpand"
+                 HasUnevenRows="true"
+                 RefreshCommand="{Binding LoadItemsCommand}"
+                 IsPullToRefreshEnabled="true"
+                 IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                 CachingStrategy="RecycleElement"
+                 ItemSelected="OnWorkoutSelected">
+              
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding day}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                                <Label Text="{Binding squat}" 
+                       LineBreakMode="NoWrap"
+                       Style="{DynamicResource ListItemDetailTextStyle}"
+                       FontSize="13" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
             <Button Clicked="Button_Clicked" Text="Add Workout" TextColor="#ba5e5e"></Button>
         </StackLayout>
     </ContentPage.Content>

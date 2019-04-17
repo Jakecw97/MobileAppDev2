@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LP.Views.WorkoutDetailPage"
+             Title="Workout Details">
+    <ScrollView x:Name="MainScroll" >
+        <StackLayout Spacing="20" Padding="15" BackgroundColor="DimGray">
+            <Label Text="Squat:" FontSize="Medium" />
+            <Label Text="{Binding Workout.squat}" FontSize="Small"/>
+            <Label Text="Bench Press:" FontSize="Medium" />
+            <Label Text="{Binding Workout.bench}" FontSize="Small"/>
+            <Label Text="Overhead Press:" FontSize="Medium" />
+            <Label Text="{Binding Workout.overHead}" FontSize="Small"/>
+            <Label Text="Bench Deadlift:" FontSize="Medium" />
+            <Label Text="{Binding Workout.deadlift}" FontSize="Small"/>
+            <Label Text="Bicep Curls:" FontSize="Medium" />
+            <Label Text="{Binding Workout.bicep}" FontSize="Small"/>
+            <Label Text="Tricep Pushdown:" FontSize="Medium" />
+            <Label Text="{Binding Workout.tricep}" FontSize="Small"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -8,6 +8,7 @@ namespace LP.Models
     public class Workout
     {
         [PrimaryKey]
+        public String id { get; set; }
         public int day { get; set; }
         public String   squat { get; set; }
         public String bench { get; set; }
