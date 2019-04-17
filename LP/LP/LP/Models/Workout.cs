@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,15 +7,15 @@ namespace LP.Models
 {
     public class Workout
     {
+        [PrimaryKey]
         public int day { get; set; }
-        public Double   squat { get; set; }
-        public Double bench { get; set; }
-        public Double deadlift { get; set; }
-        public Double overHead { get; set; }
-        public Double bicep { get; set; }
-        public Double tricep { get; set; }
+        public String   squat { get; set; }
+        public String bench { get; set; }
+        public String deadlift { get; set; }
+        public String overHead { get; set; }
+        public String bicep { get; set; }
+        public String tricep { get; set; }
       
-
 
     }
 }

@@ -14,6 +14,7 @@
             
             <ScrollView x:Name="MainScroll" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                 <StackLayout Spacing="5" Padding="5">
+                    <Label TextColor="AliceBlue" HorizontalTextAlignment="Center" Text="ALL VALUES ARE STORED AS KG'S" FontSize="Micro"></Label>
                     <Label TextColor="#61a1c6" Text="Squat" FontSize="Medium"  />
                     <Entry TextColor="White" Keyboard ="Numeric" Text="{Binding Workout.squat}" FontSize="Small" />
                     <Label TextColor="#61a1c6" Text="Bench Press" FontSize="Medium" />
